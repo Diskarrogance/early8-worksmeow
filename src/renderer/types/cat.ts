@@ -1,0 +1,9 @@
+export type CatState =
+  | 'idle'         // 空闲，眯着眼
+  | 'listening'    // 竖起耳朵
+  | 'thinking'     // 歪头思考
+  | 'confirming'   // 等你确认
+  | 'working'      // 工作忙，小爪敲键盘
+  | 'done'         // 完成了，伸懒腰
+  | 'error'        // 出错，炸毛
+  | 'evolving';    // 自进化，眼睛发光
